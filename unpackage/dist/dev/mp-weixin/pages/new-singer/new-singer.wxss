@@ -1,0 +1,74 @@
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+.top-filter-content {
+  padding: 40rpx;
+}
+.filter {
+  display: flex;
+  line-height: 60rpx;
+}
+.tag {
+  font-size: 34rpx;
+  color: #505050;
+  min-width: 80rpx;
+  margin-right: 50rpx;
+}
+.select {
+  color: #d33b32;
+}
+.title {
+  line-height: 1.8;
+  padding: 0 40rpx;
+  color: #505050;
+  background-color: #f2f2f2;
+}
+.scroll-content {
+  width: 100%;
+  height: calc(100% - 256rpx);
+}
+.scroll-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 40rpx;
+  line-height: 100rpx;
+}
+.singer-img {
+  position: relative;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.singer-img>.img {
+  width: 100%;
+}
+.singer-name {
+  padding-left: 40rpx;
+  flex: 1;
+  font-size: 32rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ENG-name {
+  color: #505050;
+}
+.singer-shoucang {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color:  #f33100;
+  padding: 0 14rpx;
+  border: 1rpx solid #f33100;
+  border-radius: 50rpx;
+  margin-top: 25rpx;
+}
+.followed {
+  color: #505050;
+  border-color: #bbb;
+}
+

@@ -1,0 +1,77 @@
+
+.container {
+  width: 100%;
+  height: 62px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  border-top: 1rpx solid #e4e4e4;
+}
+.song-pic {
+  position: relative;
+  top: -6rpx;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4rpx solid #dfdfdf80;
+  box-shadow: 0 0 10rpx rgba(0,0,0,.3);
+  -webkit-animation: circle 10s linear infinite;
+          animation: circle 10s linear infinite;
+}
+.song-pause {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.song-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  width: 100%;
+}
+@-webkit-keyframes circle {
+0% {
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes circle {
+0% {
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.song-info {
+  flex: 1;
+  margin-left: 20rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.singer {
+  font-size: 28rpx;
+  color: #a3a3a3;
+}
+.iconfont {
+  text-align: center;
+  width: 80rpx;
+  color: #8b8b8b;
+  font-size: 54rpx;
+  line-height: 90rpx;
+  padding-left: 14rpx;
+  padding-bottom: 8rpx;
+}
+

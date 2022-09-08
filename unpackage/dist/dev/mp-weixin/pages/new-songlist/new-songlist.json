@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "歌单",
+  "usingComponents": {
+    "tab-bar": "/components/nav-tabbar",
+    "play-list": "/components/play-list"
+  }
+}

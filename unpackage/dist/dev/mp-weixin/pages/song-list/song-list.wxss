@@ -1,0 +1,253 @@
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 2;
+}
+.back-img {
+  width: 100%;
+  -webkit-transform: scale(2.6);
+          transform: scale(2.6);
+  -webkit-filter: blur(30rpx);
+          filter: blur(30rpx);
+}
+.scroll-content{
+  position: absolute;
+  top: 120rpx;
+  width: 100%;
+  z-index: 9;
+}
+.top-content {
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  padding:40rpx;
+}
+.top-image {
+  width: 240rpx;
+  border-radius: 20rpx;
+}
+.top-info {
+  flex: 1;
+  padding-left: 40rpx;
+  font-size: 32rpx;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.creator {
+  padding: 20rpx 0;
+}
+.creator-img {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 10rpx rgba(0,0,0,0.3);
+  vertical-align: middle;
+}
+.creator-name {
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  color: rgba(255, 255, 255, 0.5);
+}
+.info {
+  font-size: 24rpx;
+  overflow : hidden;
+  color: rgba(236, 236, 236, 0.5);
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/* 列表展示区 */
+.song-content {
+  width: 100%;
+  background-color: #fffafa;
+  padding: 20rpx;
+}
+.topbar {
+  height: 70rpx;
+  line-height: 50rpx;
+}
+.icon-bofang2 {
+  font-size: 40rpx;
+  color: #bb2921;
+}
+.play-title {
+  font-size: 36rpx;
+  color: #333;
+  font-weight: 550;
+  padding: 0 20rpx;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.play-count {
+  color: #5c5c5c;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28rpx;
+}
+.scroll-item {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.song-number {
+  width: 80rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(100, 98, 98, 0.8);
+}
+.scroll-item .song-info {
+  margin-left: 20rpx;
+  flex: 1;
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.scroll-tip {
+  text-align: center;
+  line-height: 120rpx;
+  height: 110rpx;
+  color: #a0a0a0;
+}
+.song-info .song-title{
+  font-size: 36rpx;
+  color: #111;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.song-info .song-desc{
+  font-size: 28rpx;
+  color: #5c5c5c;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.song-info .song-desc .common {
+  color: #ff7b00;
+  margin-right: 5rpx;
+}
+.song-info .song-desc .bgimg {
+  width: 60rpx;
+  margin-right: 5rpx;
+}
+.icon-gengduo {
+  font-size: 42rpx;
+  color: #5c5c5c;
+  line-height: 100rpx;
+  padding: 0 20rpx;
+}
+.symbol {
+  display: inline-block;
+  font-size: 20rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  color: #ff5100;
+  border: 1rpx solid #ff5100;
+  padding: 0 10rpx;
+  border-radius: 6rpx;
+  -webkit-transform: scale(.8);
+          transform: scale(.8);
+}
+.special {
+  /* transform: translateY(-4rpx) scale(.8);
+  line-height: 28rpx; */
+}
+/*  */
+/* 全局覆盖 */
+.pull {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 98;
+}
+/* 菜单 */
+.menu {
+  width: 100%;
+  height: 400rpx;
+  background-color: #fffafa;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all .5s;
+  padding: 40rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  box-shadow: 0 0 20rpx rgba(0,0,0,0.3);
+}
+.menu-top {
+  display: flex;
+  width: 100%;
+  height: 200rpx;
+}
+.menu-pic {
+  width: 200rpx;
+}
+.menu-content {
+  flex: 1;
+  padding-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu-title {
+  font-size: 40rpx;
+  color: #333;
+}
+.menu-zhuanji {
+  font-size: 38rpx;
+  color: #999;
+}
+.menu-singer {
+  font-size: 32rpx;
+  color: #5c5c5c;
+}
+/* 播放列表弹框 */
+.play-list {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 800rpx;
+  background-color: #fff;
+  z-index: 100;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  transition: all .5s;
+}
+.up{
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.down{
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.noUrl {
+  color: #ececec;
+}
+
+
+
+

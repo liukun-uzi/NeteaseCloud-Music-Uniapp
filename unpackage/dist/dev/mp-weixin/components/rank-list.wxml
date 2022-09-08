@@ -1,0 +1,1 @@
+<view class="rank-content"><hd-tip vue-id="442f7012-1" title="排行榜" tip="更多" data-event-opts="{{[['^tap',[['toList',['$event']]]]]}}" catch:tap="__e" bind:__l="__l"></hd-tip><swiper-list vue-id="442f7012-2" swiperList="{{rankList}}" bind:__l="__l"></swiper-list></view>

@@ -1,0 +1,30 @@
+
+.recommend {
+  display: flex;
+  padding: 20rpx 10rpx 30rpx;
+  border-bottom: 2rpx solid #e7e7e7;
+}
+.recommendList {
+  width: 300rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recommendList .icon {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #fff3f3;
+  box-shadow: inset 0 0 30rpx #ffe2e2;
+  border-radius: 50%;
+  color:#ff4f4f;
+  text-align: center;
+  font-size: 48rpx;
+  font-weight: 500;
+  line-height: 100rpx;
+}
+.recommendList .text {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #8a8a8a;
+}
+

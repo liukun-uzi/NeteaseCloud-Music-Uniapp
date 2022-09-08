@@ -1,0 +1,1 @@
+<view class="recommend-list"><hd-tip vue-id="6e398cbc-1" title="推荐歌单" tip="更多" data-event-opts="{{[['^tap',[['toList',['$event']]]]]}}" catch:tap="__e" bind:__l="__l"></hd-tip><hd-scroll-list vue-id="6e398cbc-2" scrollList="{{recommendList}}" bind:__l="__l"></hd-scroll-list></view>

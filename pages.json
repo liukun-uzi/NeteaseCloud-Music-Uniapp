@@ -1,0 +1,112 @@
+{
+	"pages": [
+		{
+			"path":"pages/index/index"
+		},
+		{
+			"path":"pages/search/search"
+		},
+		{
+			"path":"pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆账号"
+			}
+		},
+		{
+			"path":"pages/profile/profile",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path":"pages/new-recommend/new-recommend",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path":"pages/song-play/song-play",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path":"pages/song-list/song-list",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView":false 
+				}
+			}
+		},
+		{
+			"path":"pages/singer-toplist/singer-toplist",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleNView":false 
+				}
+			}
+		},
+		{
+			"path":"pages/new-songlist/new-songlist",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "歌单"
+			}
+		},
+		{
+			"path":"pages/new-ranklist/new-ranklist",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path":"pages/new-singer/new-singer",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "歌手"
+			}
+		}
+   ],
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#d43c33",
+		"navigationBarTitleText": "仿minMusic",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"backgroundColor": "#eeeeee",
+		"color": "#999999",
+		"selectedColor": "#d43c33",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home_active.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/images/music.png",
+				"selectedIconPath": "static/images/music_active.png"
+			}
+		]
+	}
+}

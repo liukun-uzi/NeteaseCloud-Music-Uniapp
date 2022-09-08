@@ -1,0 +1,1 @@
+<view class="recommend"><block wx:for="{{recommendList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="recommendList" data-type="{{item.type}}" data-event-opts="{{[['tap',[['openNew',['$event']]]]]}}" bindtap="__e"><view class="{{['icon','iconfont',item.icon]}}"></view><view class="text">{{item.text}}</view></view></block></block></view>

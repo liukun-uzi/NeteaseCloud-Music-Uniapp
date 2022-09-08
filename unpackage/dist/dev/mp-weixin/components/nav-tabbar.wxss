@@ -1,0 +1,21 @@
+
+.container {
+  height: 50rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.nav-text {
+  padding: 0 30rpx;
+  font-size: 30rpx;
+  color: #333;
+  line-height: 46rpx;
+	display: inline-block;
+}
+.selected {
+  color: #fff;
+  background-color: rgba(255, 51, 0, 0.5);
+  border-radius: 14rpx;
+}
+

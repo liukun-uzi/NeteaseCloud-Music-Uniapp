@@ -1,0 +1,1 @@
+<view class="content"><tab-bar vue-id="319691c0-1" navId="{{params.id}}" navList="{{navList}}" data-event-opts="{{[['^changeNavId',[['changeNav']]]]}}" bind:changeNavId="__e" bind:__l="__l"></tab-bar><play-list vue-id="319691c0-2" playList="{{playList}}" bind:__l="__l"></play-list></view>

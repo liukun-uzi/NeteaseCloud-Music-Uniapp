@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "hd-swiper": "/components/hd-swiper",
+    "hd-recommend": "/components/hd-recommend",
+    "recommend-list": "/components/recommend-list",
+    "rank-list": "/components/rank-list",
+    "common-audio": "/components/common-audio"
+  }
+}
